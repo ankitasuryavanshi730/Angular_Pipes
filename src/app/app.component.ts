@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+
+  today = new Date();
+
+  laptops = ["HP","Dell","lenovo","apple","samsung"];
+
+  student = {rollno:1, name:"Ankita", surname:"suryavanshi"}
 }
